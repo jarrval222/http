@@ -17,5 +17,7 @@ $TTL	86400
 ns1	  IN	A	192.168.57.10
 mercurio  IN    A       192.168.57.11
 
-; Poner alias de apolo
+; Alias de apolo
+apolo	  IN	CNAME	mercurio
+atenea	  IN	CNAME	mercurio
 
